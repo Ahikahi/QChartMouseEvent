@@ -61,6 +61,6 @@ class CentralWidget(QChartView):
                 if self.__series_random.at(i).x() > new_point_random.x():
                     self.__series_random.insert(i, new_point_random)
 
-                    return
+                     return
 
             self.__series_random.append(new_point_random)
